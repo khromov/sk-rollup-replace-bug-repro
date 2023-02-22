@@ -7,7 +7,7 @@ export default defineConfig({
     replace({
       preventAssignment: true,
       values: {
-		ENV_PUBLIC_BREAKPOINT_MOBILE: '375px',
+		    ENV_PUBLIC_BREAKPOINT_MOBILE: '375px',
         ENV_PUBLIC_CDN_URL: 'https://cdn.yoursite.com'
       },
     }),
